@@ -1,7 +1,14 @@
-public class a extends R {
+package pac;
+
+public class App  extends Y1{
 	public static void main(String[] args) {
-		System.out.println(boy_filePath);
-		System.out.println(girl_filePath);
-		System.out.println(array2d[0][1]);
+	System.out.println(boy_filePath);
+	System.out.println(girl_filePath);
+	for (int row = 0; row < array2d.length; row++) {
+		for (int column = 0; column < array2d[0].length; column++) {
+			System.out.print(array2d[row][column]+"");
+		}
 	}
+	System.out.println();
+}
 }
